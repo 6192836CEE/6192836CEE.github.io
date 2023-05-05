@@ -2,10 +2,10 @@
 import './style.css';
 
 // Write Javascript code!
-setTimeout(() => {
-  document.querySelector('head').innerHTML =
-    document.querySelector('head').innerHTML +
-    `
+// setTimeout(() => {
+document.querySelector('head').innerHTML =
+  document.querySelector('head').innerHTML +
+  `
   
   <title>Title</title>
 
@@ -32,4 +32,4 @@ setTimeout(() => {
     />
   
   `;
-}, 200);
+// }, 200);
